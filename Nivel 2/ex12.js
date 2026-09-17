@@ -1,5 +1,12 @@
-const produto = {
-  nome: "Mouse",
-  preco: 80
+const produto = { nome: "Hidratante corporal",preco: 80
 };
-const mostarProduto = ({ nome, preco }) => {
+
+
+const mostrarProduto = (produto) => {
+    return `Produto: ${produto.nome} - Preço: R$ ${produto.preco}`;
+};
+
+
+console.log(mostrarProduto(produto));
+
+
